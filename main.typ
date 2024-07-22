@@ -130,7 +130,7 @@ du gaz et la troisième de l’électricité. On désire relier chacune des troi
 pour qu’elles aient accès à l’eau, au gaz et à l’électricité. Une contrainte supplémentaire est que les
 tuyaux ne doivent jamais se croiser. Est-ce possible ?
 
-#align(center)[#image("image_372.png", height:30%, width: auto)]
+#align(center)[#image("img/image_372.png", height:30%, width: auto)]
 
 #let showbox(title, body) = box()[
   #showybox(
@@ -168,7 +168,7 @@ $p q$ existe si et seulement si $p != q$ et $p + q$ est impair.
 
 (a) Montrer que χ($G$) = 2, autrement dit que le graphe est biparti.
 #figure(
-  image("image_373.png", height: 30%),
+  image("img/image_373.png", height: 30%),
   caption: [Le graphe G]
 )
 #showbox(
@@ -195,7 +195,7 @@ p + q &in #[Prime]
 $
 
 #figure(
-  image("image_374.png", height: 10%),
+  image("img/image_374.png", height: 10%),
   caption: [Le graphe $G prime $]
 )<G-prime>
 
@@ -230,7 +230,7 @@ Trouver un contre-exemple à l’énoncé (faux) suivant :\
 #align(center)[Tout graphe simple à 8 sommets et 2-régulier est eulérien]
 *Solution:*
 #figure(
-  image("image_375.png", height: 15%),
+  image("img/image_375.png", height: 15%),
   caption: [Un graphe ayant 2 composantes connexes]
 )
 
