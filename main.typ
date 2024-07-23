@@ -234,5 +234,30 @@ Trouver un contre-exemple à l’énoncé (faux) suivant :\
   caption: [Un graphe ayant 2 composantes connexes]
 )
 
-#pagebreak()
-#lorem(200)
+=== Exercice 14 
+Quel est le nombre chromatique du graphe de Petersen ?
+
+*Solution*
+
+Le graphe de Petersen a besoin de $chi(G)=3$ couleurs pour effectuer un coloriage des sommets.
+
+=== Exercice 15
+Il y a double implication, si le graph G est complet, ça signifie que le nombre d'arrêtes devrait être équivalent à $bar E bar = binom(bar V bar,2)$. Et si le nombre $bar E bar = binom(bar V bar,2)$, ceci signifie alors que le graph G est complet. 
+
+Il faudra alors prouver ces deux implications, l'une par l'une.
+
+*(1) Implication: G complet $arrow$ $bar E bar = binom(bar V bar,2)$*
+
+Si le graph G est complet, ça signifie que pour chaque sommet, il y a $bar V bar -1$ sommet connectés.  Et comme le graph est complet, chaque sommet sera lui aussi connecté à tout autre sommet. Donc si on a un total de $n$ sommets, alors on aura $bar V bar dot (bar V bar -1) $ connexion au total. 
+
+Il faut aussi tenir en compte que chaque sommet sera compté deux fois. Donc, après, on devra diviser par deux pour avoir le nombre total d'arrêtes $ bar E bar$.
+$
+bar E bar &= binom(bar V bar, 2)\
+&= frac(bar V bar  dot (bar V bar -1), 2)
+$
+
+*(2) Implication: $bar E bar = binom(bar V bar,2) arrow$ G complet*
+
+Ce binôme nous dit que le nombre total d'arrêt $bar E bar$ est équivalent en nombre de combinaisons possibles entre chaque sommet. Donc, ceci implique qu'il est à un nombre total de connexions possible entre chaque sommet.  qui est équivalent au nombre d'arrêtes $bar E bar$. 
+
+Et donc, si cette égalité est vérifiée, alors on conclut que le graph G est complet. #CQFD
