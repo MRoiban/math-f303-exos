@@ -242,6 +242,10 @@ Quel est le nombre chromatique du graphe de Petersen ?
 Le graphe de Petersen a besoin de $chi(G)=3$ couleurs pour effectuer un coloriage des sommets.
 
 === Exercice 15
+Soit G un graphe simple. Montrer que G est complet si et seulement si $bar E bar = binom(bar V bar,2)$
+
+*Solution*
+
 Il y a double implication, si le graph G est complet, ça signifie que le nombre d'arrêtes devrait être équivalent à $bar E bar = binom(bar V bar,2)$. Et si le nombre $bar E bar = binom(bar V bar,2)$, ceci signifie alors que le graph G est complet. 
 
 Il faudra alors prouver ces deux implications, l'une par l'une.
@@ -261,3 +265,10 @@ $
 Ce binôme nous dit que le nombre total d'arrêt $bar E bar$ est équivalent en nombre de combinaisons possibles entre chaque sommet. Donc, ceci implique qu'il est à un nombre total de connexions possible entre chaque sommet.  qui est équivalent au nombre d'arrêtes $bar E bar$. 
 
 Et donc, si cette égalité est vérifiée, alors on conclut que le graph G est complet. #CQFD
+
+=== Exercice 16
+Pour quelles valeurs de $n ∈ NN _0$ existe-t-il un graphe à $n$ sommets dont tous les sommets sont de degré exactement 3 ? Justifier votre réponse.
+
+*Solution*
+
+On sait que dans un graphe complet, chaque sommet sera connecté à tout autre sommet. Donc si on a $N$ sommet, tout sommet sera connecté à $N - 1$ sommet. Donc si on veut avoir un degré exactement égal à 3, on aura 4 sommets. 
